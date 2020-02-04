@@ -1,8 +1,10 @@
+require('dotenv').config()
 const express = require("express");
 const parser = require("body-parser");
 const cors = require("cors");
 const bookmarksRouter = require("./router/bookmarks");
 const usersRouter = require("./router/users");
+
 
 // instantiate express
 const app = express();

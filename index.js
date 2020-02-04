@@ -33,4 +33,4 @@ app.use("/api/bookmarks/", bookmarksRouter);
 // hands off requests on the '/api/users' route to the users Router
 app.use("/api/users/", usersRouter);
 
-app.listen(PORT, () => console.log("They see me rollin...on port 8080..."));
+app.listen(PORT, () => console.log("They see me rollin...on port...", PORT));
